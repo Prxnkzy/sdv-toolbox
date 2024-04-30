@@ -9,7 +9,10 @@ La Generoso SDV-toolbox est un script Python conçu pour faciliter diverses tâc
 - **Reverse shell**: Permet d'ourvir un port d'écoute sur la machine cible avec Netcat.
 - **Password analyzer**: Fonction qui détermine la force d'un mot de passe.
 - **Reporting**: Permet de générer un rapport sur les réponses précedentes.
-  
+
+## Contact
+Pour toute question ou si vous souhaitez discuter d'une collaboration, vous pouvez me contacter à julien.generoso@supdevinci-edu.fr.
+
 ## Installation
 Pour utiliser la Generoso SDV-toolbox, clonez simplement ce dépôt GitHub:
 
