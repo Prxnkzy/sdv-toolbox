@@ -1,20 +1,20 @@
-# Bienvenue sur la toolbox de Julien !
+# Welcome to the Generoso SDV-toolbox v2024!
 
 ## Description
-La Generoso SDV-toolbox est un script Python conçu pour faciliter diverses tâches de pré-pentest. Elle intègre des fonctions pour la résolution DNS, les scans de vulnérabilités, ouverture de ports d'écoutes, et bien plus.
+The Generoso SDV-toolbox is a Python script designed to facilitate various pre-pentest tasks. It includes features for DNS resolution, vulnerability scans, opening eavesdropping ports, and more.
 
-## Fonctionnalités
-- **Domain check-up**: Permet de résoudre des serveurs de noms à partir d'un domaine (NsLookup).
-- **Vulnerability scan**: Permet d'effectuer un scan de ports et de services Nmap et d'executer des scripts (NSE).
-- **Reverse shell**: Permet d'ourvir un port d'écoute sur la machine cible avec Netcat.
-- **Password analyzer**: Fonction qui détermine la force d'un mot de passe.
-- **Reporting**: Permet de générer un rapport sur les réponses précedentes.
+## Features
+- **Domain check-up**: Resolve name servers from a domain with NsLookup.
+- **Vulnerability scan**: Scans Nmap ports and services and executes scripts with NSE.
+- **Reverse shell**: Allows to port a listening port on the target machine with Netcat.
+- **Password analyzer**: Function that determines the strength of a password.
+- **Reporting**: Generate a report on previous responses.
 
 ## Contact
-Pour toute question ou si vous souhaitez discuter d'une collaboration, vous pouvez me contacter à julien.generoso@supdevinci-edu.fr.
+If you have any questions or would like to discuss a collaboration, please contact me at julien.generoso@supdevinci-edu.fr.
 
 ## Installation
-Pour utiliser la Generoso SDV-toolbox, clonez simplement ce dépôt GitHub:
+To use the Generoso SDV-toolbox, simply clone this GitHub:
 
 ```bash
 git clone https://github.com/Prxnkzy/sdv-toolbox.git
