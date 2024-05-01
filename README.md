@@ -20,8 +20,8 @@ To use the Generoso SDV-toolbox, simply clone this GitHub:
 
 
 ## Versions & licenses
-**DNSPython**
-- Library: dns.resolver
+- **DNSPython**
+-     Library: dns.resolver
 - Version: 2.6.1
 - License: ISC
 
