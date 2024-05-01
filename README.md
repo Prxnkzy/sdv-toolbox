@@ -31,7 +31,7 @@ To use the Generoso SDV-toolbox, simply clone this GitHub:
 - License : Nmap Public Source License based on the GNU GPLv2
 
 **Netcat**
-- Library : socket (+additionnal install files for Windows 10 x64)
+- Library : socket (+install files on custom path for Windows 10)
 - Version : 1.12
 - License : GNU GPL
 
