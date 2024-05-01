@@ -21,7 +21,7 @@ To use the Generoso SDV-toolbox, simply clone this GitHub:
 
 ## Versions & licenses
 - **DNSPython**
-    _ Library: dns.resolver
+  _ Library: dns.resolver
 - Version: 2.6.1
 - License: ISC
 
