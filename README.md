@@ -21,17 +21,17 @@ To use the Generoso SDV-toolbox, simply clone this GitHub:
 
 ## Versions & licenses
 - **DNSPython**
-    Library: dns.resolver
-    Version: 2.6.1
-    License: ISC
+  Library: dns.resolver
+  Version: 2.6.1
+  License: ISC
 - **Nmap**
-    Library : subprocess (install the nmap module on nmap.org)
-    Version : 7.95
-    License : Nmap Public Source License based on the GNU GPLv2
+  Library : subprocess (install the nmap module on nmap.org)
+  Version : 7.95
+  License : Nmap Public Source License based on the GNU GPLv2
 - **Netcat**
-    Library : socket (+additionnal install files for Windows 10 x64)
-    Version : 1.12
-    License : GNU GPL
+  Library : socket (+additionnal install files for Windows 10 x64)
+  Version : 1.12
+  License : GNU GPL
 
 ## Contact
 If you have any questions or would like to discuss a collaboration, please contact me at julien.generoso@supdevinci-edu.fr.
