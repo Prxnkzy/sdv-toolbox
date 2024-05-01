@@ -15,6 +15,9 @@ Clone the repository to get started with the Generoso SDV-toolbox:
 - **Password analyzer**: Assesses password strength to ensure security best practices are met.
 - **Reporting**: Automatically generates comprehensive reports detailing scan outcomes and security insights.
 
+## Usage
+
+
 ## Dependencies & licenses
 **DNSPython**
 - Library: dns.resolver
