@@ -1,25 +1,21 @@
 # Welcome to the Generoso SDV-toolbox v2024!
 
-## Description
-The Generoso SDV-toolbox is a Python script designed to facilitate various pre-pentest tasks. It includes features for DNS resolution, vulnerability scans, opening eavesdropping ports, and more.
+## Overview
+The Generoso SDV-toolbox is a comprehensive Python toolkit designed to streamline pre-pentest operations. It supports a range of activities including DNS lookups, vulnerability assessments, reverse shell connections, password strength testing, and report generation.
 
 ## Installation
-To use the Generoso SDV-toolbox, simply clone this GitHub:
+Clone the repository to get started with the Generoso SDV-toolbox:
 
     git clone https://github.com/Prxnkzy/sdv-toolbox.git
     
 ## Features
-- **Domain check-up**: Resolve name servers from a domain with DNSPython.
-- **Vulnerability scan**: Scans Nmap ports and services and executes scripts with NSE.
-- **Reverse shell**: Allows to port a listening port on the target machine with Netcat.
-- **Password analyzer**: Function that determines the strength of a password.
-- **Reporting**: Generate a report on previous responses.
+- **Domain check-up**: Uses DNSPython to resolve nameservers for specified domains.
+- **Vulnerability scan**: Leverages Nmap for scanning ports and services, employing NSE scripts for detailed checks.
+- **Reverse shell**: Establishes reverse shell connections using Netcat, facilitating remote system access.
+- **Password analyzer**: Assesses password strength to ensure security best practices are met.
+- **Reporting**: Automatically generates comprehensive reports detailing scan outcomes and security insights.
 
-## Usage
-
-
-
-## Versions & licenses
+## Dependencies & licenses
 **DNSPython**
 - Library: dns.resolver
 - Version: 2.6.1
@@ -36,6 +32,7 @@ To use the Generoso SDV-toolbox, simply clone this GitHub:
 - License : GNU GPL
 
 ## Contact
-If you have any questions or would like to discuss a collaboration, please contact me at julien.generoso@supdevinci-edu.fr.
+For inquiries or potential collaborations, please reach out:
+📧 Email: julien.generoso@supdevinci-edu.fr
 
 
