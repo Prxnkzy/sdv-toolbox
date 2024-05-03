@@ -23,5 +23,5 @@ pushd "%CD%"
 CD /D "%~dp0"
 :--------------------------------------
 
-python C:\path\sdv-toolbox_v1.py
+python C:\path\sdv-toolbox.py
 pause
