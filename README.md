@@ -1,4 +1,4 @@
-# Welcome to the Generoso SDV-toolbox v2024!
+# Welcome to the Generoso SDV-toolbox !
 
 ## Overview
 The Generoso SDV-toolbox is a comprehensive Python toolkit designed to streamline pre-pentest operations. It supports a range of activities including DNS lookups, vulnerability assessments, reverse shell connections, password strength testing, and report generation.
