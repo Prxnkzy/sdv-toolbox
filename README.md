@@ -30,19 +30,27 @@ Enter a target IP address to scan, the attack level, and the ports.
 + *-sV: Service version detection.*
 + *--script=vuln: Executes vulnerability detection scripts (NSE).*
 
+**Reserve shell**
+Enter a target IP address and a listening port to establish a connection and inject commands.
++ Change the path in 'commande_netcat' according to your operating system (default "C:\netcat-win32-1.12\nc.exe"
+
+**Password analyzer**
+Enter a password to determine how long it can withstand brute-forcing, as this affects its complexity.
+Source : > https://www.hivesystems.com/blog/are-your-passwords-in-the-green
+
 ## Dependencies & licenses
 **DNSPython**:
-+ *Library dns.resolver
++ *Library dns.resolver*
 + *Version 2.6.1*
 + *ISC license*
 
 **Nmap**:
-+ *Library subprocess (+install the nmap module on nmap.org)
++ *Library subprocess (+install the nmap module on nmap.org)*
 + *Version 7.95*
 + *Nmap Public Source License based on the GNU GPLv2*
 
 **Netcat**:* 
-+ *Library socket (+install netcat files on custom path for Windows 10)
++ *Library socket (+install netcat files on custom path for Windows 10)*
 + *Version 1.12*
 + *GNU GPL license*
 
