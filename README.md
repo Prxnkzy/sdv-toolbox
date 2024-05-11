@@ -15,7 +15,7 @@ Clone the repository to get started with the Generoso SDV-toolbox:
 
 **Reverse shell**: Establishes reverse shell connections using Netcat, facilitating remote system access.
 
-**Password analyzer**: Calculates the time required to brute-force a password, based on a study by Hive Systems[^1].
+**Password analyzer**: Calculates the time required to brute-force a password, based on a study by Hive Systems^1.
 
 **Reporting**: Automatically generates comprehensive reports detailing scan outcomes and security insights.
 
