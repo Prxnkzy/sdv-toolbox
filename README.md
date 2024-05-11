@@ -25,10 +25,10 @@ Enter a target IP address to retrieve the DNS, MX, and TXT records.
 
 **Vulnerability scan**:
 Enter a target IP address to scan, the attack level, and the ports.
-> -Pn: Disables the ping phase, treating the host as active.
-> -T{attaque}: Specifies the scan's aggression level (1 being the slowest and stealthiest, 5 being the fastest and noisiest).
-> -sV: Service version detection.
-> --script=vuln: Executes vulnerability detection scripts (NSE).
++ -Pn: Disables the ping phase, treating the host as active.
++ -T{attaque}: Specifies the scan's aggression level (1 being the slowest and stealthiest, 5 being the fastest and noisiest).
++ -sV: Service version detection.
++ --script=vuln: Executes vulnerability detection scripts (NSE).
 
 ## Dependencies & licenses
 **DNSPython**:
