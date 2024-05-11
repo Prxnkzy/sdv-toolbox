@@ -29,15 +29,15 @@ blabla
 ## Dependencies & licenses
 **DNSPython**:
 
-*Library: dns.resolver - Version: 2.6.1 - License: ISC*
+*Library dns.resolver - Version 2.6.1 - ISC license*
 
 **Nmap**:
 
-*Library: subprocess (install the nmap module on nmap.org) - Version: 7.95 - License: Nmap Public Source License based on the GNU GPLv2*
+*Library subprocess (+install the nmap module on nmap.org) - Version 7.95 - Nmap Public Source License based on the GNU GPLv2*
 
 **Netcat**:* 
 
-*Library: socket (+install files on custom path for Windows 10) - Version: 1.12 - License: GNU GPL*
+*Library socket (+install netcat files on custom path for Windows 10) - Version 1.12 - GNU GPL license*
 
 ## Contact
 For inquiries or potential collaborations, please reach out:
