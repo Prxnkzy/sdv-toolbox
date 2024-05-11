@@ -30,13 +30,13 @@ Enter a target IP address to scan, the attack level, and the ports.
 + *-sV: Service version detection.*
 + *--script=vuln: Executes vulnerability detection scripts (NSE).*
 
-**Reserve shell**
+**Reserve shell**:
 Enter a target IP address and a listening port to establish a connection and inject commands.
 + Change the path in 'commande_netcat' according to your operating system (default "C:\netcat-win32-1.12\nc.exe"
 
-**Password analyzer**
+**Password analyzer**:
 Enter a password to determine how long it can withstand brute-forcing, as this affects its complexity.
-Source : > https://www.hivesystems.com/blog/are-your-passwords-in-the-green
+> https://www.hivesystems.com/blog/are-your-passwords-in-the-green
 
 ## Dependencies & licenses
 **DNSPython**:
