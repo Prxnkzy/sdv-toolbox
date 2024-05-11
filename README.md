@@ -20,27 +20,24 @@ Clone the repository to get started with the Generoso SDV-toolbox:
 **Reporting**: Automatically generates comprehensive reports detailing scan outcomes and security insights.
 
 ## Usage
-**1. Domaine check-up**
+**Domaine check-up**:
 Enter a target IP address to retrieve the DNS, MX, and TXT records.
 
-**2. Vulnerability scan**
+**Vulnerability scan**:
 blabla
 
 ## Dependencies & licenses
-**DNSPython**
-*- Library: dns.resolver*
-*- Version: 2.6.1*
-*- License: ISC*
+**DNSPython**:
 
-**Nmap**
-*- Library : subprocess (install the nmap module on nmap.org)*
-*- Version : 7.95*
-*- License : Nmap Public Source License based on the GNU GPLv2*
+*Library: dns.resolver - Version: 2.6.1 - License: ISC*
 
-**Netcat**
-*- Library : socket (+install files on custom path for Windows 10)*
-*- Version : 1.12*
-*- License : GNU GPL*
+**Nmap**:
+
+*Library: subprocess (install the nmap module on nmap.org) - Version: 7.95 - License: Nmap Public Source License based on the GNU GPLv2*
+
+**Netcat**:* 
+
+*Library: socket (+install files on custom path for Windows 10) - Version: 1.12 - License: GNU GPL*
 
 ## Contact
 For inquiries or potential collaborations, please reach out:
