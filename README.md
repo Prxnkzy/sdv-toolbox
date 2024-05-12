@@ -17,7 +17,7 @@ Clone the repository to get started with the Generoso SDV-toolbox:
 
 **Password analyzer**: Calculates the time required to brute-force a password, based on a study by Hive Systems.
 
-**Auto-reporting**: Automatically generates comprehensive reports detailing scan outcomes and security insights.
+**Auto-reporting**: Automatically generates comprehensive reports detailing the previous execution of the code with DualWriter.
 
 ## Usage
 **Domaine check-up**:
