@@ -17,7 +17,7 @@ Clone the repository to get started with the Generoso SDV-toolbox:
 
 **Password analyzer**: Calculates the time required to brute-force a password, based on a study by Hive Systems.
 
-**Reporting**: Automatically generates comprehensive reports detailing scan outcomes and security insights.
+**Auto-reporting**: Automatically generates comprehensive reports detailing scan outcomes and security insights.
 
 ## Usage
 **Domaine check-up**:
@@ -32,11 +32,20 @@ Enter a target IP address to scan, the attack level, and the ports.
 
 **Reserve shell**:
 Enter a target IP address and a listening port to establish a connection and inject commands.
-+ Change the path in 'commande_netcat' according to your operating system (default "C:\netcat-win32-1.12\nc.exe"
++ Change the path in *'commande_netcat'* according to your operating system (default *"C:\netcat-win32-1.12\nc.exe"*
 
 **Password analyzer**:
 Enter a password to determine how long it can withstand brute-forcing according to Hive Systems' study.
-> https://www.hivesystems.com/blog/are-your-passwords-in-the-green
++ Check out: *https://www.hivesystems.com/blog/are-your-passwords-in-the-green*
+
+**Auto-reporting**:
+The DualWriter class redirects text output to multiple destinations simultaneously. It behaves like a file object, making it compatible with sys.stdout or other open files.
+When you apply the *log_to_file* decorator using *@log_to_file*, each function execution is logged to *logs.txt* while displaying outputs in the console.
++ Backs up the console output
++ Opens or creates *logs.txt* without overwriting old records
++ Writes a timestamp in the logs before running the function
++ Redirects text to both the console and the file
++ Restores the original console output
 
 ## Dependencies & licenses
 **DNSPython**:
