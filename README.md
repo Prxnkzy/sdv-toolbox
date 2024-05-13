@@ -31,7 +31,7 @@ Enter a target IP address to scan, the attack level, and the ports.
 + *--script=vuln: Executes vulnerability detection scripts (NSE).*
 
 **Reserve shell**:
-Enter a target IP address and a listening port to establish a connection and inject commands. Change the path in *'commande_netcat'* according to your operating system (default *"C:\netcat-win32-1.12\nc.exe"*
+Enter a target IP address and a listening port to establish a connection and inject commands. Change the path in *'commande_netcat'* according to your operating system (default *"C:\netcat-win32-1.12\nc.exe")*
 + *-l: Listen mode.*
 + *-v: Vebose mode.*
 + *-p: Specifies the port to listen on.*
