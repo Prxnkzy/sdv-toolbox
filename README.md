@@ -52,7 +52,7 @@ When you apply the *log_to_file* decorator using *@log_to_file*, each function e
 
 ## Dependencies & licenses
 **DNSPython**:
-+ *Library dns.resolver*
++ *Libraries dns.resolver and socket*
 + *Version 2.6.1*
 + *ISC license*
 
@@ -61,10 +61,18 @@ When you apply the *log_to_file* decorator using *@log_to_file*, each function e
 + *Version 7.95*
 + *Nmap Public Source License based on the GNU GPLv2*
 
-**Netcat**:* 
-+ *Library socket (+install netcat files on custom path for Windows 10)*
+**Netcat**:
++ *Libraries subprocess, threading, and time (+install netcat files on custom path for Windows 10)*
 + *Version 1.12*
 + *GNU GPL license*
+
+**Password analyzer**:
++ *Library re*
++ *No license*
+
+**Auto-reporting**:
++ *Libraries datetime and sys*
++ *No licences*
 
 ## Contact
 For inquiries or potential collaborations, please reach out:
