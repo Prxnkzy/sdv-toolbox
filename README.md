@@ -11,17 +11,20 @@ Clone the repository to get started with the Generoso SDV-toolbox:
 ## Features
 **Domain check-up**: Uses DNSPython to resolve nameservers for specified domains.
 
+**ARP scan** : With Scapy, discover the IP addresses and their corresponding MAC addresses on a chosen network.
+
 **Vulnerability scan**: Leverages Nmap for scanning ports and services, employing NSE scripts for detailed checks.
 
 **Reverse shell**: Establishes reverse shell connections using Netcat, facilitating remote system access.
-
-**Password analyzer**: Calculates the time required to brute-force a password, based on a study by Hive Systems.
 
 **Auto-reporting**: Automatically generates comprehensive reports detailing the previous execution of the code with DualWriter.
 
 ## Usage
 **Domaine check-up**:
 Enter a target IP address to retrieve the DNS, MX, and TXT records.
+
+**ARP scan**:
+Enter a target network to resolve IP address and MAC address.
 
 **Vulnerability scan**:
 Enter a target IP address to scan, the attack level, and the ports.
@@ -36,10 +39,6 @@ Enter a target IP address and a listening port to establish a connection and inj
 + *-v: Vebose mode.*
 + *-p: Specifies the port to listen on.*
 + *-e cmd.exe: Executes 'cmd.exe' after establishing the connection.*
-
-**Password analyzer**:
-Enter a password to determine how long it can withstand brute-forcing according to Hive Systems' study.
-+ Check out: *https://www.hivesystems.com/blog/are-your-passwords-in-the-green*
 
 **Auto-reporting**:
 The DualWriter class redirects text output to multiple destinations simultaneously. It behaves like a file object, making it compatible with sys.stdout or other open files.
@@ -56,6 +55,11 @@ When you apply the *log_to_file* decorator using *@log_to_file*, each function e
 + *Version 2.6.1*
 + *ISC license*
 
+**Scapy**:
++ *Libraries ARP, Ether et srp (from Scapy) + Npcap installation*
++ *Version 2.5.0*
++ *GNU GPL license*
+
 **Nmap**:
 + *Library subprocess (+install the nmap module on nmap.org)*
 + *Version 7.95*
@@ -65,10 +69,6 @@ When you apply the *log_to_file* decorator using *@log_to_file*, each function e
 + *Libraries subprocess, threading, and time (+install netcat files on custom path for Windows 10)*
 + *Version 1.12*
 + *GNU GPL license*
-
-**Password analyzer**:
-+ *Library re*
-+ *No license*
 
 **Auto-reporting**:
 + *Libraries datetime and sys*
