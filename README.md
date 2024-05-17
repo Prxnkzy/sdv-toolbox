@@ -74,6 +74,7 @@ Execute the toolbox in admin mode on Windows (credentials needed) if you want to
 + *GNU GPL license*
 
 **Auto-reporting**:
++ *class DualWriter*
 + *Libraries datetime and sys*
 + *No licences*
 
