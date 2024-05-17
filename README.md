@@ -49,6 +49,9 @@ When you apply the *log_to_file* decorator using *@log_to_file*, each function e
 + Redirects text to both the console and the file
 + Restores the original console output
 
+**Windows admin mode**:
+Execute the toolbox in admin mode on Windows (credentials needed) if you want to add functions that require admin privileges.
+
 ## Dependencies & licenses
 **DNSPython**:
 + *Libraries dns.resolver and socket*
