@@ -20,7 +20,7 @@ Download *sdv-toolbox.py* or clone the repository to get started with the Genero
 **Auto-reporting**: Automatically generates comprehensive reports detailing the previous execution of the code with DualWriter.
 
 ## Usage
-**Domaine check-up**:
+**Domain check-up**:
 Enter a target IP address to retrieve the DNS, MX, and TXT records.
 
 **ARP scan**:
